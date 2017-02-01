@@ -6,6 +6,8 @@ AUTHOR = u'Juan Marin'
 SITENAME = u'Blog de Juan'
 SITEURL = ''
 
+THEME = 'themes/simple'
+
 PATH = 'content'
 
 TIMEZONE = 'America/Bogota'
