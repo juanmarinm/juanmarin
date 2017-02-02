@@ -21,6 +21,11 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+USE_FOLDER_AS_CATEGORY = False
+
+TEMPLATE_PAGES = {'admin/index.html': 'admin/index.html'}
+STATIC_PATHS = ['uploads', 'admin']
+
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Python.org', 'http://python.org/'),
