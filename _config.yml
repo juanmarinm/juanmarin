@@ -1,0 +1,117 @@
+# Site settings
+title:       El Blog de Juan Marín
+email:       contacto@juanm.co
+author:      Juan Marín
+description: "Blog personal de Juan Marín. Experiencias de vida, software y otros."
+baseurl:     ""
+url:         "https://juanm.co"
+date_format: "%b %-d, %Y"
+
+# Google services
+google_verification:
+# Use either direct GA implementation or set up GTM account
+# - using both will skew your data (leave blank to not use at all)
+google_analytics:
+google_tag_manager:
+# Bing services
+bing_verification:
+
+# Optional features
+animated:             false
+show_related_posts:   false
+show_post_footers:    true
+show_social_icons:    false
+ajaxify_contact_form: false
+enable_mathjax: false
+extended_fonts: false
+enable_anchorjs: false
+
+# Facebook Page integration
+# (for instant articles and other stuff)
+fb_page: false
+fb_page_id:
+
+# Disqus post comments
+# (leave blank to disable Disqus)
+disqus_shortname:
+
+# Facebook Comments plugin
+# (leave blank to disable Facebook Comments, otherwise set it to true)
+facebook_comments:
+facebook_appid:
+facebook_comments_number: 10
+
+# Social icons
+github_username:
+bitbucket_username:
+stackoverflow_id:
+twitter_username:
+skype_username:
+steam_nickname:
+google_plus_id:
+linkedin_username:
+angellist_username:
+medium_id:
+bitcoin_url:
+paypal_url:
+flattr_button:
+
+# Post sharing icons
+show_sharing_icons: false
+# Change to 'true' to enable individual icons
+share_facebook: false
+share_twitter: false
+share_googleplus: false
+share_linkedin: false
+share_digg: false
+share_tumblr: false
+share_reddit: false
+share_stumbleupon: false
+share_hackernews: false
+
+text:
+  pagination:
+    newer: 'Más nuevo'
+    older: 'Más antiguo'
+  share_buttons:
+    text:         'Comparte este post!'
+    facebook:     'Comparte en Facebook'
+    twitter:      'Comparte en Twitter'
+    googleplus:   'Comparte en Google+'
+    linkedin:     'Comparte en LinkedIn'
+    digg:         'Comparte en Digg'
+    tumblr:       'Comparte en Tumblr'
+    reddit:       'Comparte en Reddit'
+    stumbleupon:  'Comparte en StumbleUpon'
+    hackernews:   'Comparte en Hacker News'
+  post:
+    updated:        'Actualizado'
+    minute_read:    'minutos de lectura'
+    related_posts:  'Post relacionados'
+  index:
+    coming_soon: 'Muy pronto...'
+  contact:
+    email:    'Correo electrónico'
+    content:  '¿Qué te gustaría decir?'
+    subject:  'Nuevo mensaje (juanm.co)'
+    submit:   'Dí hola'
+    ajax:
+      sending:  'enviando..'
+      sent:     'Mensaje enviado!'
+      error:    'Error!'
+  thanks: 'Gracias por tu mensaje. Te responderé tan pronto como sea posible.'
+  og_locale: 'es_CO'
+
+# Build settings
+markdown:     kramdown
+redcarpet:
+  extensions: ['smart', 'tables', 'with_toc_data']
+permalink:    pretty
+paginate:     4
+sass:
+  style: compressed
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap
+# https://github.com/jekyll/jekyll/issues/2938
+exclude: [vendor]
