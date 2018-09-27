@@ -5,11 +5,9 @@ jQuery(function ($) {
     // --------------------------------------------------------------------
     // PreLoader
     // --------------------------------------------------------------------
-    $(window).on('load', function() {
-      $('#preloader .status-mes').delay(400).fadeOut(function(){
-        $('#preloader').delay(350).fadeOut('slow');
-      });
-    })
+    $('#preloader .status-mes').delay(600).fadeOut(function(){
+      $('#preloader').delay(350).fadeOut('slow');
+    });
 
     var validator = $('#registration-form').validate({
       rules: {
