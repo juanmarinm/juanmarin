@@ -1,1 +1,4 @@
+User-Agent: *
+Disallow:
+
 Sitemap: https://juanmarin.xyz/sitemap.xml
